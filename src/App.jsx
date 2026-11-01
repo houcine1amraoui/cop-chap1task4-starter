@@ -18,6 +18,11 @@ function App() {
               type="text"
               placeholder="Add an Item"
               className="item-input"
+              onKeyDown={(e) => {
+                if (e.key === "Enter") {
+                  console.log("Enter key pressed");
+                }
+              }}
             />
           </div>
         </div>
