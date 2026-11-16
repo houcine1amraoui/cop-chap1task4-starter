@@ -1,12 +1,11 @@
+import { useState } from "react";
 import "./App.css";
 import Header from "./Header";
 import ItemList from "./ItemList";
 
 function App() {
-  const groceryItems = [
-    { id: 1, name: "bread", quantity: 1, completed: false },
-    { id: 2, name: "meat", quantity: 1, completed: false },
-  ];
+  const [groceryItems, setGroceryItems] = useState([]);
+
   return (
     <main className="App">
       <div>
