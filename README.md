@@ -1,6 +1,6 @@
 # React + Vite
 
-1. Create a state called inputValue to control the value of the text input element. Hint: Put the inputValue state inside the "<Header/>" component.
+1. Create a state called inputValue to control the value of the text input element. Hint: Put the inputValue state inside the Header component.
 
 2. Create a state called groceryItems to control and handle the added items. Hint: put the groceryItems state inside the App component.
 
