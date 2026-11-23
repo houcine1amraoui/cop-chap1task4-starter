@@ -1,16 +1,13 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Create a state called inputValue to control the value of the text input element. Hint: Put the inputValue state inside the "<Header/>" component.
 
-Currently, two official plugins are available:
+2. Create a state called groceryItems to control and handle the added items. Hint: put the groceryItems state inside the App component.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+3. Complete the “press Enter” functionality in the input text to push new items into the groceryItems array state.
 
-## React Compiler
+4. Show a placeholder “No Item” when the groceryItems list is empty.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+5. Add the functionality of removing an item from the list.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+6. Add the functionality of showing you’re done conditionally only when all items are checked. Hint: use a derived state instead of using useEffect hook.
